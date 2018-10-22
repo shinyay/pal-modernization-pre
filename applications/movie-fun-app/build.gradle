@@ -25,5 +25,5 @@ dependencies {
     compile "org.apache.geronimo.components:geronimo-jaspi:2.0.0"
     compile "org.apache.tomee:javaee-api:7.0"
 
-    testCompile "junit:junit:4.12"
+    testCompile "junit:junit:$junitVersion"
 }

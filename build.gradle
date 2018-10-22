@@ -1,6 +1,10 @@
 buildscript {
     ext {
         springBootVersion = "1.5.15.RELEASE"
+        springVersion = "4.3.18.RELEASE"
+        hibernateVersion = "5.0.11.Final"
+        slf4jVersion = "1.7.21"
+        junitVersion = "4.12"
     }
 
     repositories {
@@ -45,5 +49,5 @@ dependencies {
     compile "org.apache.geronimo.specs:geronimo-osgi-locator:1.1"
     compile "org.apache.geronimo.components:geronimo-jaspi:2.0.0"
 
-    testCompile "junit:junit:4.12"
+    testCompile "junit:junit:$junitVersion"
 }
