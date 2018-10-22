@@ -21,3 +21,11 @@ $ docker-compose up -d
 $ mysql -h127.0.0.1 -uroot -pmysql -e 'DROP DATABASE IF EXISTS movies; CREATE DATABASE movies;'
 $ mysql -h127.0.0.1 -uroot -pmysql movies < ./db/schema.ddl
 ```
+
+## Setyo Minio
+
+- [Minio Dashboard: http://localhost:9000](http://localhost:9000)
+
+  - AccessKey: access_key
+  - SecretKey: access_secret
+  - Bucket: movie-fun-course (Create on Dashboard)
