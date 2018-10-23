@@ -6,4 +6,5 @@ include "applications:movie-service"
 include "components:albums"
 include "components:movies"
 include "components:blobstore"
+include 'components:movie-fun-api'
 
