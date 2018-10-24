@@ -11,6 +11,6 @@ dependencies {
 
     compile "org.hibernate:hibernate-core:$hibernateVersion"
     compile "org.slf4j:slf4j-api:$slf4jVersion"
-    
+
     testCompile "junit:junit:$junitVersion"
 }
